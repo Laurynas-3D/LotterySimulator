@@ -12,7 +12,6 @@ This program simulates lottery game based on "Euro Jackpot" lottery in a simplif
 
 #### Todo list:
 
-- [ ] 
 - [ ] Improve lottery numbers draw algorithm*
 - [ ] Calculate winnings based on tickets sold
 - [ ] Add feature more features to stats
