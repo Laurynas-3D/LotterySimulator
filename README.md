@@ -12,11 +12,11 @@ This program simulates lottery game based on "Euro Jackpot" lottery in a simplif
 
 #### Todo list:
 
--[ ] 
--[ ] Improve lottery numbers draw algorithm*
--[ ] Calculate winnings based on tickets sold
--[ ] Add feature more features to stats
--[ ] Implement Multithreading
+- [ ] 
+- [ ] Improve lottery numbers draw algorithm*
+- [ ] Calculate winnings based on tickets sold
+- [ ] Add feature more features to stats
+- [ ] Implement Multithreading
 
 * algorithm * - shuffle all the numbers, randomly pick one, then delete that number from the list, shuffle again and
 repeat process again till all required numbers are picked.
