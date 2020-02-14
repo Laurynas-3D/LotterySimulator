@@ -1,3 +1,5 @@
+package cf.laurynas;
+
 import java.util.Random;
 import java.util.TreeSet;
 
@@ -23,7 +25,7 @@ public class EuroJackpot {
         GenerateTicketNumbersMain();
         GenerateTicketNumbersBonus();
         TicketInfoPrint();
-        TicketNumbersCheck();
+        ticketNumbersCheck();
         WinningsCount();
         System.out.println("-----------------------------");
 
@@ -39,7 +41,7 @@ public class EuroJackpot {
             GenerateTicketNumbersMain();
             GenerateTicketNumbersBonus();
             TicketInfoPrint();
-            TicketNumbersCheck();
+            ticketNumbersCheck();
             WinningsCount();
             System.out.println("-----------------------------");
 
@@ -170,7 +172,7 @@ public class EuroJackpot {
 
     }
 
-    private void TicketNumbersCheck(){
+    private void ticketNumbersCheck(){
 
         // Creating the array and using toArray()
         Object[] arrayTicketNumbers = ticketNumbersMain.toArray();
@@ -269,4 +271,4 @@ public class EuroJackpot {
         return ticketSerialNumber;
     }
 
-} // end class EuroJackpot --------------------------
+} // end class EuroJackpot.EuroJackpot --------------------------

@@ -1,3 +1,5 @@
+package cf.laurynas;
+
 import java.util.Random;
 import java.util.TreeSet;
 
@@ -78,4 +80,4 @@ public class EuroJackpotLotteryNumbers {
 
     }
 
-} // end of EuroJackpotLotteryNumbers class
+} // end of EuroJackpot.EuroJackpotLotteryNumbers class

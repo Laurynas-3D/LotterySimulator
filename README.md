@@ -11,7 +11,10 @@ This program simulates lottery game based on "Euro Jackpot" lottery in a simplif
 - Program shows statistics (ticket count, how many tickets won, how many euros spent on all tickets, winnings sum)
 
 #### Todo list:
-
+- [x] Correct SonarLint issues. Reported 7 in EuroJackpotApp.java
+- [ ] Correct SonarLint issues. Reported 46 in LotteryStatistics.java (45 issues left)
+- [ ] Correct SonarLint issues. Reported 17 in EuroJackpotLotteryNumbers.java (16 issues left)
+- [ ] Correct SonarLint issues. Reported 54 in euroJackpot.euroJackpot.java (53 issues left)
 - [ ] Improve lottery numbers draw algorithm*
 - [ ] Calculate winnings based on tickets sold
 - [ ] Add feature more features to stats
